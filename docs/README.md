@@ -9,7 +9,9 @@
 ## Code Source
 
 All pipelines were obtained from the Lupien Lab.
+
 Consensus Peaks pipeline: https://github.com/LupienLab/consensus_ATAC
+
 Repeat Enrichment pipeline: https://github.com/LupienLab/RepeatEnrichment
 
 --------------------------------------
