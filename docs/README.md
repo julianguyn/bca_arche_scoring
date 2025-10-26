@@ -6,6 +6,12 @@
 
 **Description:** Score ARCHE signature expression from input narrowPeak files
 
+## Code Source
+
+All pipelines were obtained from the Lupien Lab.
+Consensus Peaks pipeline: https://github.com/LupienLab/consensus_ATAC
+Repeat Enrichment pipeline: https://github.com/LupienLab/RepeatEnrichment
+
 --------------------------------------
 
 [![pixi-badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json&style=flat-square)](https://github.com/prefix-dev/pixi)
@@ -17,6 +23,9 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/julianguyn/bca_arche_scoring?style=flat-square)
 ![GitHub contributors](https://img.shields.io/github/contributors/julianguyn/bca_arche_scoring?style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/julianguyn/bca_arche_scoring?style=flat-square)
+
+
+--------------------------------------
 
 ## Set Up
 
