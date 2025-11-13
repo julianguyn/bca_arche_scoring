@@ -49,7 +49,14 @@ cellName = basename(files)
 
 for (i in 1:length(files)){
   #print(i)
-  subject = suppressMessages(readBed(files[i]))
+  # ------- manually load in ARCHE beds as GR:
+  if (grep("narrowPeak", file) == 1) {
+    subject = suppressMessages(readBed(files[i]))       # this line doesn't work on ARCHE beds
+  } else {
+   bed <- fread(files[i], data.table = FALSE)
+   subject <- makeGRangesFromDataFrame(bed)
+  }
+  # -------
   hits = findOverlaps(query, subject)
   #print("overlapfinding done")
   hitsDF <- data.frame(hits)
