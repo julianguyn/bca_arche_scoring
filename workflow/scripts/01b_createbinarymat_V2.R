@@ -54,6 +54,7 @@ for (i in 1:length(files)){
     subject = suppressMessages(readBed(files[i]))       # this line doesn't work on ARCHE beds
   } else {
    bed <- fread(files[i], data.table = FALSE)
+   bed$seqnames <- paste0("chr", bed$seqnames)
    subject <- makeGRangesFromDataFrame(bed)
   }
   # -------
