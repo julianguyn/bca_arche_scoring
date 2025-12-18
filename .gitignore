@@ -383,3 +383,4 @@ site/
 # sandbox/
 # etc.
 metadata/
+log.txt
