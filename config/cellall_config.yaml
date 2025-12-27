@@ -5,4 +5,5 @@ PEAKS_DIR: /cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/rawd
 peaks_extension: "_peaks.filtered.merged.narrowPeak"
 hg38TEs_DIR: /cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/procdata/ARCHEs/all_sites/
 hg38TEs_extension: ".bed"
+RESULTS_DIR: "/cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/results/cell_lines/all"
 qval: 0.01

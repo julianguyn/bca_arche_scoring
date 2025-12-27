@@ -51,7 +51,10 @@ for (i in 1:length(files)){
   #print(i)
   # ------- manually load in ARCHE beds as GR:
   if (length(grep("narrowPeak", files[i])) > 0) {
-    subject = suppressMessages(readBed(files[i]))       # this line doesn't work on ARCHE beds
+    bed <- fread(files[i], data.table = FALSE)
+    bed <- bed[,c(1:3)]
+    colnames(bed) <- c("chr", "start", "end")
+    subject <- makeGRangesFromDataFrame(bed)
   } else {
    bed <- fread(files[i], data.table = FALSE)
    bed$seqnames <- paste0("chr", bed$seqnames)
