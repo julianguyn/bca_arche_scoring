@@ -6,4 +6,5 @@ peaks_extension: "_peaks.filtered.merged.narrowPeak"
 hg38TEs_DIR: /cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/procdata/ARCHEs/50k_sites/
 hg38TEs_extension: ".bed"
 RESULTS_DIR: "/cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/results/PDXs/50k_TCGAbg"
+background: "/cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/results/TCGA/pdx_50k/chromvar/TCGA_50k_pdx.counts_filtered.Rdata"
 qval: 0.01

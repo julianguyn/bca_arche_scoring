@@ -1,0 +1,10 @@
+opname: "TCGA_50k_pdx"
+metadatafile: /cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/metadata/tcga_metadata.txt
+consensusfile: /cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/results/TCGA/consensus_pdx/PeakCalls_unionPeakSet.bed
+PEAKS_DIR: /cluster/projects/bhklab/rawdata/BCaATAC/TCGA/
+peaks_extension: "_peaks.narrowPeak"
+hg38TEs_DIR: /cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/procdata/ARCHEs/50k_sites/
+hg38TEs_extension: ".bed"
+RESULTS_DIR: "/cluster/projects/bhklab/projects/BCaATAC/BCa_ARCHE_Scoring/data/results/TCGA/pdx_50k"
+background: ""
+qval: 0.01
